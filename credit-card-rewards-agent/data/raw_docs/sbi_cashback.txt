@@ -1,0 +1,43 @@
+CARD NAME: SBI Cashback
+ISSUER: State Bank of India
+DOCUMENT TYPE: Reward Program Terms
+EFFECTIVE DATE: 2026-01-01
+
+REWARD PROGRAM OVERVIEW
+SBI Cashback does not use a points system. It gives direct cashback as a percentage of eligible spend,
+credited automatically to the statement.
+
+CATEGORY-WISE REWARD STRUCTURE
+1. Online spends (general, including flights and hotels booked online): 5% cashback.
+2. Offline / in-store spends (general): 1% cashback.
+3. Dining: 1% cashback (treated as offline unless ordered via an online food delivery app, in which case the
+   5% online rate applies).
+4. Groceries (online): 5% cashback. Groceries (offline / in-store): 1% cashback.
+5. Utilities: EXCLUDED from the 5% online cashback rate. Utilities bill payments earn only 1% regardless of
+   channel.
+6. Rent payments: EXCLUDED entirely. No cashback earned on rent payment transactions.
+7. Insurance premium payments: EXCLUDED entirely. No cashback earned on insurance premium payments.
+8. Wallet reloads and gift cards: EXCLUDED entirely.
+9. Fuel: EXCLUDED entirely (standard surcharge waiver only, no cashback).
+
+CAPS
+- Maximum cashback of Rs. 5,000 per statement cycle across all categories combined.
+- Beyond the Rs. 5,000 cap, no further cashback is earned for the remainder of that billing cycle.
+
+MILESTONE BENEFITS
+- No milestone benefits are offered on this card.
+
+REDEMPTION OPTIONS
+- Cashback is automatically credited to the statement; no manual redemption or point transfer is required
+  or possible. This card does not support transfers to airline or hotel partners.
+
+TRANSFER PARTNERS
+- Not applicable. SBI Cashback has no transfer partner program.
+
+ANNUAL FEE
+- Annual fee: Rs. 999 + taxes. Waived on annual spend above Rs. 2,00,000 in the previous year.
+
+NOTES
+This document is a synthetic sample created for a capstone learning project. It does not represent the
+actual, current terms of any real bank product. Always verify with the issuer before making financial
+decisions.

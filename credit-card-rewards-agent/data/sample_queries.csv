@@ -1,0 +1,9 @@
+query,expected_category,expected_best_card_hint
+"I am spending Rs 50000 on a domestic flight. Which card should I use?",flights,Axis Atlas
+"I am paying Rs 25000 insurance premium. Which card should I use?",insurance,SBI Cashback excluded - check Axis/HDFC
+"I am spending Rs 100000 on hotels and want Marriott-style points.",hotels,Axis Atlas or HDFC Diners Club Black
+"Which card is best for rent payment?",rent,none - all excluded
+"I have 50000 points on Axis Atlas. Should I convert them to airline miles or hotel points?",transfer,depends on goal
+"I spend Rs 30000 on dining every month.",dining,HDFC Diners Club Black if SmartBuy dining program used
+"I am paying my electricity bill of Rs 4000.",utilities,SBI Cashback (1%) vs Axis (reduced) - compare
+"I am spending Rs 20000 on groceries online.",groceries,SBI Cashback (5% online)

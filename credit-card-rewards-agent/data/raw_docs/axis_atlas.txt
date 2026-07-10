@@ -1,0 +1,50 @@
+CARD NAME: Axis Atlas
+ISSUER: Axis Bank
+DOCUMENT TYPE: Reward Program Terms
+EFFECTIVE DATE: 2026-01-01
+
+REWARD PROGRAM OVERVIEW
+Axis Atlas earns "Edge Miles" on eligible retail spends. Edge Miles are the base reward currency for this
+card and can be redeemed against travel bookings or transferred to airline and hotel partners.
+
+CATEGORY-WISE REWARD STRUCTURE
+1. Flights (booked via any travel portal or airline directly): Accelerated rate of 5 Edge Miles per Rs. 100 spent.
+2. Hotels (booked via any channel): Accelerated rate of 5 Edge Miles per Rs. 100 spent.
+3. Dining: Standard rate of 2 Edge Miles per Rs. 100 spent.
+4. Groceries: Standard rate of 2 Edge Miles per Rs. 100 spent.
+5. Utilities (electricity, water, gas bill payments): EXCLUDED from accelerated rewards. Only 1 Edge Mile per
+   Rs. 200 spent (heavily reduced rate).
+6. Rent payments: EXCLUDED entirely. No Edge Miles are earned on rent payment transactions processed
+   through any rent payment platform.
+7. Insurance premium payments: EXCLUDED from accelerated rewards. Standard rate of 1 Edge Mile per Rs. 200.
+8. Wallet reloads and gift card purchases: EXCLUDED entirely.
+9. International spends: Accelerated rate of 5 Edge Miles per Rs. 100, same as flights/hotels.
+
+CAPS
+- Monthly cap on accelerated categories (flights + hotels combined): maximum 20,000 Edge Miles per
+  statement cycle. Any spend beyond the cap earns Edge Miles at the standard rate of 2 per Rs. 100.
+- No cap on standard-rate categories.
+
+MILESTONE BENEFITS
+- On reaching Rs. 3,00,000 annual spend, cardholder receives 2,500 bonus Edge Miles.
+- On reaching Rs. 7,50,000 annual spend, cardholder receives an additional 2,500 bonus Edge Miles plus a
+  complimentary domestic lounge access voucher.
+
+REDEMPTION OPTIONS
+- Redeem Edge Miles directly against flight and hotel bookings on the Axis Travel Edge portal at a fixed
+  value of Rs. 1 per Edge Mile.
+- Transfer Edge Miles to airline and hotel loyalty partners (see transfer partner table below).
+
+TRANSFER PARTNERS
+- Partner: Air Voyage Miles (airline) | Type: airline | Transfer ratio: 1 Edge Mile = 1 Air Voyage Mile |
+  Minimum transfer: 1,000 Edge Miles | Maximum transfer: 200,000 Edge Miles per year.
+- Partner: GlobalStay Hotel Points (hotel) | Type: hotel | Transfer ratio: 2 Edge Miles = 1 GlobalStay Point |
+  Minimum transfer: 2,000 Edge Miles | Maximum transfer: 100,000 Edge Miles per year.
+
+ANNUAL FEE
+- Annual fee: Rs. 5,000 + taxes. Waived if annual spend in the previous year exceeds Rs. 4,00,000.
+
+NOTES
+This document is a synthetic sample created for a capstone learning project. It does not represent the
+actual, current terms of any real bank product. Always verify with the issuer before making financial
+decisions.
