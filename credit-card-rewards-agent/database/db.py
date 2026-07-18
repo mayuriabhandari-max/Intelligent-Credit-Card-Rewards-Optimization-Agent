@@ -14,7 +14,6 @@ SessionLocal = sessionmaker(bind=engine, autoflush=False, autocommit=False)
 
 
 def init_db():
-    """Create all tables if they don't already exist."""
     os.makedirs(os.path.dirname(DB_PATH) or ".", exist_ok=True)
     Base.metadata.create_all(engine)
 

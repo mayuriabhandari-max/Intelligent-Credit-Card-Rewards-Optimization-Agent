@@ -31,11 +31,16 @@ User query: {query}
 
 CLARIFICATION_PROMPT = """The user's query is missing information needed to give a grounded recommendation.
 Query: {query}
-Known so far: intent={intent}, spend_amount={spend_amount}, spend_category={spend_category}
+Known so far: intent={intent}, spend_amount={spend_amount}, spend_category={spend_category}, cards_owned={cards_owned}
 
-Write ONE short, specific clarifying question to ask the user (e.g. asking for the missing
-spend amount, category, or their optimization goal such as cashback vs airline miles vs
-hotel points). Do not answer the question yourself. Return only the question text.
+Write ONE short, specific clarifying question to ask the user. Ask ONLY about whichever
+piece is actually missing:
+- If cards_owned is empty, ask which credit cards they own (this takes priority --
+  a recommendation is meaningless without knowing their card options).
+- Otherwise ask for the missing spend amount, category, or their optimization goal
+  such as cashback vs airline miles vs hotel points.
+Do not answer the question yourself. Do not re-ask for information already known above.
+Return only the question text.
 """
 
 FINAL_ANSWER_PROMPT = """{system_prompt}

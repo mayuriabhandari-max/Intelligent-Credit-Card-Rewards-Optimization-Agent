@@ -72,6 +72,11 @@ def needs_clarification(state: AgentState) -> bool:
         return True
     if intent == "transfer_strategy" and not state.get("transfer_points"):
         return True
+    # FIX: a recommendation is meaningless without knowing which cards are in play.
+    # Previously cards_owned was never required, so retrieval silently compared
+    # every card in the database regardless of what the user selected.
+    if intent in ("single_transaction", "transfer_strategy") and not state.get("cards_owned"):
+        return True
     return False
 
 
@@ -82,6 +87,9 @@ def clarification_node(state: AgentState) -> AgentState:
         intent=state.get("intent"),
         spend_amount=state.get("spend_amount"),
         spend_category=state.get("spend_category"),
+        # FIX: the prompt needs to know cards_owned is missing, or it will keep
+        # re-asking about spend_amount/spend_category even when those are known.
+        cards_owned=state.get("cards_owned") or "none provided",
     )
     response = llm.invoke(prompt)
     state["needs_clarification"] = True
@@ -99,7 +107,14 @@ def retrieval_node(state: AgentState) -> AgentState:
     category = state.get("spend_category") or "general"
 
     vector_chunks = retrieve_chunks(query, k=6)
-    structured_rules = get_structured_rules(category) if category != "general" else []
+
+    # FIX: previously get_structured_rules() was called with no card filter,
+    # so it always pulled rules for every card in the category regardless of
+    # what the user selected in "Cards you own". Now that cards_owned is
+    # required upstream (see needs_clarification), pass it through so the
+    # recommendation is actually scoped to the user's own cards.
+    owned = state.get("cards_owned") or None  # None = no filter (compare all cards)
+    structured_rules = get_structured_rules(category, card_names=owned) if category != "general" else []
 
     state["vector_chunks"] = vector_chunks
     state["structured_rules"] = structured_rules
